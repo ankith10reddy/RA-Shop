@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+}
+.header {
+    padding: 15px;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+    
+}
+
+.clearfix {
+    overflow: auto;
+}
+.myimg {
+    float: left;
+    margin: 0 0 10px 10px;
+}
+
+
+.filling{
+	color:red;
+}
+.logIn{
+	width: 300px;
+	margin-bottom:10px;
+    padding: 8px;
+}
+
+.container{
+	justify-items:start;
+	justify-content: space-evenly;
+}
+
+#logo { 
+    height: 300px;
+    width: 300px; 
+    overflow: hidden; 
+}
+
+#logomin { 
+    height: 250px;
+    width: 250px; 
+    overflow: hidden;     
+}
+
+#price {
+font-size:35px;
+}
+#discount{
+font-size:25px;
+}
+#iprice {
+font-size:20px;
+}
+#idiscount{
+font-size:10px;
+}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
