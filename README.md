@@ -2,7 +2,7 @@
 Its an online shopping website
 
 Used phpmyadmin for database.   
-Used XAMPP for creating a localhost server. 
+Used XAMPP for creating a localhost server.    
 Uses Model View Controller concept to build the website.  
 Can encrypt the password so that even database manager wont be able to view it.    
 Has a separate user experience for sellers to view the order by consumers and alter the products.    
